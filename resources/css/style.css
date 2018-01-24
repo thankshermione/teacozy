@@ -1,4 +1,5 @@
-/* Universal Styles */
+		
+	/* Universal Styles */
 
 body {
 	font-family: Helvetica, sans-serif;
@@ -10,7 +11,7 @@ body {
 }
 
 
-/* Header */
+	/* Header */
 
 header {
 	top: 0;
@@ -45,7 +46,8 @@ nav a {
 	color: seashell;
 }
 
-/* Main Content */
+
+	/* Main Content */
 
 .main {
 	position: relative;
@@ -53,9 +55,11 @@ nav a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
 }
 
-/* Mission Section */
+
+	/* Mission Section */
 
 #mission {
 	display: flex;
@@ -73,8 +77,35 @@ nav a {
 	padding: 10px;
 }
 
-/* Featured Section */
 
-/* Location Section */
+	/* Featured Section */
 
-/* Footer */
+#featured {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+}
+
+.title {
+	width: 1000px;
+}
+
+.tea h4 {
+	margin: 0;
+}
+
+.tea {
+	padding-bottom: 10px;
+}
+
+.tea img {
+	height: 200px;
+	width: 300px;
+	padding: 15px;
+}
+
+	/* Location Section */
+
+	/* Footer */
