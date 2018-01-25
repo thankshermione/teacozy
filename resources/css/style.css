@@ -110,4 +110,58 @@ nav a {
 
 	/* Location Section */
 
+#locations {
+	height: 500px;
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	background-image: url("../images/locations.jpg");
+}
+
+#locations .title {
+	width: 980px;
+	padding-bottom: 15px;
+}
+
+#locations h2 {
+	margin: 0;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.address h3 {
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
 	/* Footer */
+
+footer {
+	position: relative;
+	top: 62px;
+}
+
+.contact {
+	height: 200px;
+}
+
+.contact h2 {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+footer p {
+	text-align: left;
+	padding: 20px;
+	margin: 0;
+}
