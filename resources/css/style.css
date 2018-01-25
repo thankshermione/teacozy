@@ -94,6 +94,15 @@ nav a {
 	width: 1000px;
 }
 
+.title h2 {
+	margin-bottom: 0;
+}
+
+.title h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .tea h4 {
 	margin: 0;
 }
